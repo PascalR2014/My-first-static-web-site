@@ -2,18 +2,17 @@ body{
 	background-image: image-url("fond5.png");
 }
 #marge{
-	padding:10px 10px 0px 10px;
+	padding:20px 40px 0px 40px;
 }
 #ban{
+	background-image: image-url('ban.jpg');
+	background-size: 100%;
+	background-position:25% 65%;
 	border:1px solid black;
 	width: auto;
 	height:140px;
 	border-radius: 20px;
 	text-align: center;
-	background-image: image-url('fond.jpg');
-	background-position: center -220px;
-	background-repeat: no-repeat;
-	background-size: 100%;
 }
 #ban h1{
 	text-align: left;
@@ -64,20 +63,23 @@ body{
 	background-position: center -100px;
 	border:1px solid black;
 	border-radius: 30px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 #box{
 	height:350px;
 	width:auto;
 	border-radius: 30px;
-	text-align: center;
 	margin: 50px 20px 20px 50px;
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: left;
+	font-family: Times;
+	color: black;
+	font-size: 18px;
 }
-h3{
-	color:black;
-}
+
+@import url(http://fonts.googleapis.com/css?family=Calligraffitti);
+
 #mention{
 	margin:20px -25px 0px -25px;
 	text-align: center;
