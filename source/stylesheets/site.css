@@ -1,0 +1,88 @@
+body{
+	background-image: url("images/fond5.png");
+}
+#marge{
+	padding:10px 10px 0px 10px;
+}
+#ban{
+	border:1px solid black;
+	width: auto;
+	height:140px;
+	border-radius: 20px;
+	text-align: center;
+	background-image: url('images/fond.jpg');
+	background-position: center -220px;
+	background-repeat: no-repeat;
+	background-size: 100%
+}
+#ban h1{
+	text-align: left;
+	margin:0;
+	color: black;
+}
+.bouton{
+	width:110px;
+	height:75px;
+	border-radius: 50%;
+	background-image: url('images/oeuf.png');
+	background-position: center;
+	background-size: 100%;
+	margin:30px 0px 0px 0px;
+}
+.bouton p{
+	text-align: center;
+	line-height: 75px;
+	color:black;
+}
+.bouton:hover{
+	box-shadow: 0px 10px 10px black;
+}
+.col-md-12{
+	padding: 0;
+	height: 140px;
+}
+.col-md-10{
+	padding: 0;
+	height: auto;
+	text-align: center;
+}
+.col-md-8{
+	padding: 0;
+	margin-left: 300px;
+}
+.col-md-6{
+	padding:0;
+}
+.col-md-2{
+	height: auto;
+	padding: 0;
+}
+.row:nth-child(2){
+	background-image: url('images/fondmouton.jpg'); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center -100px;
+	border:1px solid black;
+	border-radius: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#box{
+	height:350px;
+	width:auto;
+	border-radius: 30px;
+	text-align: center;
+	margin: 50px 20px 20px 50px;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+h3{
+	color:black;
+}
+#mention{
+	margin:20px -25px 0px -25px;
+	text-align: center;
+}
+#mention p{
+	margin:0;
+	color:black;
+}
