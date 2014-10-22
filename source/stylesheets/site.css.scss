@@ -1,13 +1,21 @@
 body{
-	background-image: image-url("fond5.png");
+	background-image: image-url("fond9.png");
 }
 #marge{
 	padding:20px 40px 0px 40px;
 }
+a{
+	color:white;
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+	text-decoration: none;
+}
 #ban{
-	background-image: image-url('ban.jpg');
+	background-image: image-url('fond.jpg');
 	background-size: 100%;
-	background-position:25% 65%;
+	background-position:45% 55%;
 	border:1px solid black;
 	width: auto;
 	height:140px;
@@ -25,18 +33,17 @@ body{
 	margin:10px 0px 10px 0px;
 }
 .bouton{
-	width:110px;
-	height:75px;
-	border-radius: 50%;
-	background-image: image-url('oeuf.png');
+	width:100px;
+	height:50px;
+	background-color:#797979;
 	background-position: center;
 	background-size: 100%;
-	margin:30px 0px 0px 20px;
+	margin:20px 0px 20px 20px;
 }
 .bouton p{
 	text-align: center;
-	line-height: 75px;
-	color:black;
+	line-height: 50px;
+	color:white;
 }
 .bouton:hover{
 	box-shadow: 0px 10px 10px black;
@@ -57,12 +64,14 @@ body{
 	padding: 0;
 }
 .row:nth-child(3){
+	height: 420px;
+	width:auto;
 	background-image: image-url('mouton.jpg'); 
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center -100px;
-	border:1px solid black;
-	border-radius: 30px;
+	border:2px solid #5C5C5C;
+	border-radius: 5px;
 	margin-bottom: 0px;
 }
 #box{
@@ -109,3 +118,6 @@ body{
 @media screen and (max-width:720px){
 	#nav:{display:none;}
 	}
+@media screen and (max-width:570px){
+	#ban{display:none;}
+}
