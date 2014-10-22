@@ -15,10 +15,12 @@ a:hover{
 #ban{
 	background-image: image-url('ban.jpg'); 
 	background-size: 100%;
+	background-position: 80% 20%;
+	background-repeat: no-repeat;
 	border:1px solid black;
 	width: auto;
-	height:140px;
-	border-radius: 20px;
+	height:170px;
+	border-radius: 5px;
 	text-align: center;
 }
 #ban h1{
@@ -29,7 +31,7 @@ a:hover{
 #nav{
 	padding: 0;
 	text-align: center;
-	margin:10px 0px 10px 0px;
+	margin:20px 0px 20px 0px;
 }
 .bouton{
 	width:100px;
@@ -46,7 +48,8 @@ a:hover{
 .bouton:hover{
 	box-shadow: 0px 10px 10px black;
 }
-.col-md-10{
+.col-md-12{
+	margin: 0;
 	padding: 0;
 	text-align: center;
 }
@@ -57,32 +60,16 @@ a:hover{
 .col-md-6{
 	padding:0;
 }
-.col-md-2{
-	height: auto;
-	padding: 0;
-}
 .row:nth-child(3){
 	height: 420px;
 	width:auto;
-	background-image: image-url('mouton.jpg'); 
+	background-color: #FEFEFE; 
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center -100px;
-	border:2px solid #5C5C5C;
+	border:1px solid black;
 	border-radius: 5px;
 	margin-bottom: 0px;
-}
-#box{
-	height:auto;
-	width:auto;
-	border-radius: 30px;
-	margin: 50px 50px 50px 20px;
-	background-color: rgba(#FFF, 0.5);
-	text-align: left;
-	font-family: Times;
-	color: black;
-	font-size: 18px;
-	padding:10px 10px 10px 10px;
 }
 #mention{
 	margin:0px -55px 0px -55px;
@@ -96,8 +83,6 @@ a:hover{
 	color:black;
 }
 @media screen and (max-width:995px){
-	#ban{background-image: none;}
-	.row:nth-child(3){background-image: none;border: none;}
 	.bouton{margin:0px;display:inline;}
 	.bouton:hover{box-shadow: none;}
 	.bouton p{
