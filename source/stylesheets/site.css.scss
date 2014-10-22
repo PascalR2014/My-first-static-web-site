@@ -19,6 +19,11 @@ body{
 	margin:0;
 	color: black;
 }
+#nav{
+	padding: 0;
+	text-align: center;
+	margin:10px 0px 10px 0px;
+}
 .bouton{
 	width:110px;
 	height:75px;
@@ -26,7 +31,7 @@ body{
 	background-image: image-url('oeuf.png');
 	background-position: center;
 	background-size: 100%;
-	margin:30px 0px 0px 0px;
+	margin:30px 0px 0px 20px;
 }
 .bouton p{
 	text-align: center;
@@ -36,13 +41,8 @@ body{
 .bouton:hover{
 	box-shadow: 0px 10px 10px black;
 }
-.col-md-12{
-	padding: 0;
-	height: 140px;
-}
 .col-md-10{
 	padding: 0;
-	height: auto;
 	text-align: center;
 }
 .col-md-8{
@@ -56,35 +56,56 @@ body{
 	height: auto;
 	padding: 0;
 }
-.row:nth-child(2){
-	background-image: image-url('fondmouton.jpg'); 
+.row:nth-child(3){
+	background-image: image-url('mouton.jpg'); 
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center -100px;
 	border:1px solid black;
 	border-radius: 30px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 #box{
-	height:350px;
+	height:auto;
 	width:auto;
 	border-radius: 30px;
-	margin: 50px 20px 20px 50px;
-	background-color: rgba(255, 255, 255, 0.5);
+	margin: 50px 50px 50px 20px;
+	background-color: rgba(#FFF, 0.5);
 	text-align: left;
 	font-family: Times;
 	color: black;
 	font-size: 18px;
 }
-
-@import url(http://fonts.googleapis.com/css?family=Calligraffitti);
-
 #mention{
-	margin:20px -25px 0px -25px;
+	margin:0px -55px 0px -55px;
 	text-align: center;
+	height: auto;
+	width: auto;
+	background-color: rgba(#FFF, 0.7);
 }
 #mention p{
 	margin:0;
 	color:black;
 }
+@media screen and (max-width:995px){
+	#ban{background-image: none;}
+	.row:nth-child(3){background-image: none;border: none;}
+	.bouton{margin:0px;display:inline;}
+	.bouton:hover{box-shadow: none;}
+	.bouton p{
+		color: #fff;
+  		background-color: #5cb85c;
+  		border-color: #4cae4c;
+		line-height: normal;height: 20px;
+		width: auto;
+		border-radius: 10px;
+	}
+	.bouton:hover{
+		color: #fff;
+  		background-color: #449d44;
+  		border-color: #398439;
+	}
+}
+@media screen and (max-width:720px){
+	#nav:{display:none;}
+	}
