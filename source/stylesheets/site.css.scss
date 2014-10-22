@@ -13,9 +13,8 @@ a:hover{
 	text-decoration: none;
 }
 #ban{
-	background-image: image-url('fond.jpg');
+	background-image: image-url('ban.jpg'); 
 	background-size: 100%;
-	background-position:45% 55%;
 	border:1px solid black;
 	width: auto;
 	height:140px;
@@ -35,10 +34,9 @@ a:hover{
 .bouton{
 	width:100px;
 	height:50px;
-	background-color:#797979;
-	background-position: center;
-	background-size: 100%;
+	background-image:image-url('ban.png');
 	margin:20px 0px 20px 20px;
+	border-radius: 5px;
 }
 .bouton p{
 	text-align: center;
@@ -84,6 +82,7 @@ a:hover{
 	font-family: Times;
 	color: black;
 	font-size: 18px;
+	padding:10px 10px 10px 10px;
 }
 #mention{
 	margin:0px -55px 0px -55px;
