@@ -35,6 +35,10 @@ a:hover{
 	text-align: center;
 	margin:20px 0px 20px 0px;
 }
+.btn{
+	text-align: center;
+	width:173px;
+}
 #box{
 	border:1px solid black;
 	border-radius: 5px;
@@ -56,7 +60,8 @@ a:hover{
 	text-align: center;
 	height: auto;
 	width: auto;
-	background-color: rgba(#FFF, 0.7);
+	background-color: rgba(#fff, 1);
+	border-radius: 5px;
 }
 #mention p{
 	margin:0;
@@ -82,4 +87,14 @@ a:hover{
 }
 @media screen and (max-width:720px){
 	#marge{padding:5px 5px 0px 5px;}
-	}
+}
+h3{
+	color:red;
+}
+h4{
+	color:red;
+}
+.volaille{
+	height: 50px;
+	width: 50px;
+}
