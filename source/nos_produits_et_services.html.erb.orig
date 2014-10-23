@@ -1,13 +1,17 @@
 <div class="row">
 	<div class="margebox">
+<<<<<<< HEAD
 		<h2>Nos <span>P</span>roduits & <span>S</span>ervices</h2>
 
   <div class="rubrique"><h3>Produits:</h3></div>
     
 	
+=======
+		<h2><span>N</span>os <span>P</span>roduits & <span>S</span>ervices</h2>
+>>>>>>> 7336973c683b792f0b3b4d463529d163ddaa0027
 	</div><!--margbox-->
 </div>
-<p class="cat">- Volailles traditionnelles et lagomorphes</p>
+<p class="cat">Volailles traditionnelles et lagomorphes</p>
 <table>
 <tbody>
     <tr>
@@ -55,7 +59,7 @@
   		</tbody>
 			</table>
        <tr>
-<p class="cat">- Volailles festives</p>
+<p class="cat">Volailles festives</p>
 <table>
 <tbody>
     <tr>
@@ -88,7 +92,7 @@
     </tr>
   </tbody>
 </table>
-<p class="cat">- Agneaux</p>
+<p class="cat">Agneaux</p>
 <table>
   <tbody>
 <tr>

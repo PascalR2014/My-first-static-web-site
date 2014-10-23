@@ -91,12 +91,13 @@ a:hover{
 }
 h2{
 	font-family: lobster;
+<<<<<<< HEAD
 	margin: 0;
+=======
+	margin:0;
+>>>>>>> 7336973c683b792f0b3b4d463529d163ddaa0027
 }
 @import url(http://fonts.googleapis.com/css?family=Lobster);
-h4{
-	
-}
 h5{
 	color:red;
 	text-align: left;
@@ -132,12 +133,12 @@ td:first-child{
 span {
 	color:red;
 }
-
+.cdm{
+	margin:0px 0px 0px 20px;
+}
 .rubrique{
 	margin: 50px 0px 20px 0px;
 }
 td {
 	padding-bottom: 10px;
 }
-.contact {text-align: center;}
-
