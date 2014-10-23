@@ -37,6 +37,7 @@ a:hover{
 }
 .btn{
 	text-align: center;
+	margin:2px 0px 2px 0px;
 	width:173px;
 }
 #box{
@@ -90,7 +91,9 @@ a:hover{
 }
 h3{
 	color:red;
+	font-family: lobster;
 }
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 h4{
 	color:red;
 }
