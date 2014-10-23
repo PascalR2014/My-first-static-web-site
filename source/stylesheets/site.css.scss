@@ -91,11 +91,9 @@ a:hover{
 }
 h2{
 	font-family: lobster;
+	margin:0;
 }
 @import url(http://fonts.googleapis.com/css?family=Lobster);
-h4{
-	
-}
 h5{
 	color:red;
 	text-align: left;
@@ -120,11 +118,11 @@ td:first-child{
 	font-size: 20px;
 }
 .margebox{
-	margin: 40px;
+	margin: 0px 0px 0px 40px;
 }
 span {
 	color:red;
 }
-.text{
-
+.cdm{
+	margin:0px 0px 0px 20px;
 }
