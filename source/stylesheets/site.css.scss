@@ -13,10 +13,12 @@ a:hover{
 	text-decoration: none;
 }
 #ban{
-	background-image: image-url('ban.jpg'); 
-	background-size: 100%;
-	background-position: 80% 20%;
+	background-image: image-url('ban.jpg');
 	background-repeat: no-repeat;
+  	-webkit-background-size: cover; /* pour Chrome et Safari */
+  	-moz-background-size: cover; /* pour Firefox */
+  	-o-background-size: cover; /* pour Opera */
+  	background-size: cover; /* version standardisée */
 	border:1px solid black;
 	width: auto;
 	height:170px;
@@ -50,7 +52,7 @@ a:hover{
 	padding:0;
 }
 #mention{
-	margin:20px -55px 0px -55px;
+	margin:20px 0px 0px 0px;
 	text-align: center;
 	height: auto;
 	width: auto;
@@ -67,7 +69,8 @@ a:hover{
 		color: #fff;
   		background-color: #5cb85c;
   		border-color: #4cae4c;
-		line-height: normal;height: 20px;
+		line-height: normal;
+		height: 20px;
 		width: auto;
 		border-radius: 10px;
 	}
@@ -78,8 +81,5 @@ a:hover{
 	}
 }
 @media screen and (max-width:720px){
-	#nav:{display:none;}
+	#marge{padding:5px 5px 0px 5px;}
 	}
-@media screen and (max-width:570px){
-	#ban{display:none;}
-}
