@@ -13,8 +13,8 @@
     <%= javascript_include_tag  "all" %>
   </head>
   <body class="<%= page_classes %>">
-      <div id="marge">
-    <div class="container-fluid">
+    <div id="marge">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
             <div id="ban">
@@ -32,22 +32,13 @@
             </div><!--nav-->
           </div><!--col-md-12-->
         </div><!--row-->
-        <div class="row">
-
-          <div class="col-md-2">
-            <div class="bouton"><a href ="elevage.html"><p><strong>Elevage</strong></p></a></div>
-            <div class="bouton"><a href ="produits.html"><p><strong>Produits</strong></p></a></div>
-            <div class="bouton"><a href ="contact.html"><p><strong>Contact</strong></p></a></div>
-            <div class="bouton"><a href ="votre-avis.html"><p><strong>Votre avis</strong></p></a></div>
-          </div><!--col-md-2-->
-          <div class="col-md-10">
-            <div id="box">
-
-          <div class="col-md-12">
-
-              <p><%= yield %></p>
-          </div><!--col-md-12-->
-        </div><!--row-->
+      <div class="row">
+        <div class="col-md-12">
+          <div id="box">
+            <p><%= yield %></p>
+          </div><!--box-->
+        </div><!--col-md-12-->
+      </div><!--row-->
         <div id="mention">
         <p>LORIN Jean-Marie - Rue des Sablons - Les Marais - 28240 Belhomert-Guéhouville - SIRET 38177130200027</p>
         </div><!--mention-->

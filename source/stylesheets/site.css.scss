@@ -33,25 +33,14 @@ a:hover{
 	text-align: center;
 	margin:20px 0px 20px 0px;
 }
-.bouton{
-	width:100px;
-	height:50px;
-	background-image:image-url('ban.png');
-	margin:20px 0px 20px 20px;
+#box{
+	border:1px solid black;
 	border-radius: 5px;
-}
-.bouton p{
-	text-align: center;
-	line-height: 50px;
-	color:white;
-}
-.bouton:hover{
-	box-shadow: 0px 10px 10px black;
+	background-color: #FEFEFE;
 }
 .col-md-12{
 	margin: 0;
 	padding: 0;
-	text-align: center;
 }
 .col-md-8{
 	padding: 0;
@@ -60,19 +49,8 @@ a:hover{
 .col-md-6{
 	padding:0;
 }
-.row:nth-child(3){
-	height: 420px;
-	width:auto;
-	background-color: #FEFEFE; 
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center -100px;
-	border:1px solid black;
-	border-radius: 5px;
-	margin-bottom: 0px;
-}
 #mention{
-	margin:0px -55px 0px -55px;
+	margin:20px -55px 0px -55px;
 	text-align: center;
 	height: auto;
 	width: auto;
