@@ -97,7 +97,27 @@ h3{
 h4{
 	color:red;
 }
-.volaille{
+h5{color:red;
+	text-align: left;
+}
+.volaille {
 	height: 50px;
 	width: 50px;
+}
+
+.row {
+	margin: 40px;
+}
+
+td {
+	height:50px;
+	width: 160px;
+}
+td:first-child{
+	text-align: center;
+}
+.img {height: 50px;
+width: 50px;}
+p {
+	margin: 40px;
 }
