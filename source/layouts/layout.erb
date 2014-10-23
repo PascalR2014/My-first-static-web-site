@@ -24,24 +24,28 @@
         <div class="row">
           <div class="col-md-12">
             <div id="nav">
-              <button type="button" class="btn btn-success"><a href ="index.html">Qui sommes-nous?</a></button>
-              <button type="button" class="btn btn-success"><a href ="nos_produits_et_services.html">Nos produits & services</a></button>
-              <button type="button" class="btn btn-success"><a href ="ou_nous_trouver.html">Où nous trouver?</a></button>
-              <button type="button" class="btn btn-success"><a href ="nos_installations.html">Nos installations</a></button>
-              <button type="button" class="btn btn-success"><a href ="contact.html">Contact</a></button>
+              <a href ="/index.html" class="btn btn-success">Qui sommes-nous?</a>
+              <a href ="/nos_produits_et_services.html" class="btn btn-success">Nos produits & services</a>
+              <a href ="/ou_nous_trouver.html" class="btn btn-success">Où nous trouver?</a>
+              <a href ="/nos_installations.html" class="btn btn-success">Nos installations</a>
+              <a href ="/contact.html" class="btn btn-success">Contact</a>
             </div><!--nav-->
           </div><!--col-md-12-->
         </div><!--row-->
-      <div class="row">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="box">
+              <p><%= yield %></p>
+            </div><!--box-->
+          </div><!--col-md-12-->
+        </div><!--row-->
+      </div><!--container-fluid-->
+      <div class="container-fluid">
         <div class="col-md-12">
-          <div id="box">
-            <p><%= yield %></p>
-          </div><!--box-->
+          <div id="mention">
+            <p>LORIN Jean-Marie - Rue des Sablons - Les Marais - 28240 Belhomert-Guéhouville - SIRET 38177130200027</p>
+          </div><!--mention-->
         </div><!--col-md-12-->
-      </div><!--row-->
-        <div id="mention">
-        <p>LORIN Jean-Marie - Rue des Sablons - Les Marais - 28240 Belhomert-Guéhouville - SIRET 38177130200027</p>
-        </div><!--mention-->
       </div><!--container-fluid-->
     </div><!--marge-->
   </body>
