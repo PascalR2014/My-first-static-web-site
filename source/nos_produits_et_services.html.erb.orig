@@ -1,53 +1,46 @@
-<div class="row">
-	<div class="margebox">
-<<<<<<< HEAD
-		<h2>Nos <span>P</span>roduits & <span>S</span>ervices</h2>
-
-  <div class="rubrique"><h3>Produits:</h3></div>
-    
-	
-=======
+<div class="container-fluid">
+  <div class="row">
 		<h2><span>N</span>os <span>P</span>roduits & <span>S</span>ervices</h2>
->>>>>>> 7336973c683b792f0b3b4d463529d163ddaa0027
-	</div><!--margbox-->
-</div>
-<p class="cat">Volailles traditionnelles et lagomorphes</p>
-<table>
-<tbody>
+    <div class="rubrique">
+      <h3>Produits:</h3>
+    </div>
+    <p class="cat">Volailles traditionnelles et lagomorphes</p>
+    <table>
+  <tbody>
     <tr>
       <td><img class="volaille" src="images/poulet.jpg"></td>
       <td>Poulets</td>
       <td>Elevés en plein air</td>
       <td>Age: minimum 15 sem.</td>
-      <td>Alimentation: céréales + complément minéraux</td>
+      <td>Alimentation: céréales + compléments minéraux</td>
     </tr>
     <tr>
       <td><img class="volaille" src="images/pintade.jpg"></td>
       <td>Pintades</td>
       <td>Elevées en plein air</td>
       <td>Age: minimum 15 sem.</td>
-      <td>Alimentation: céréales + complément minéraux</td>
+      <td>Alimentation: céréales + compléments minéraux</td>
     </tr>
     <tr>
     <td><img class="volaille" src="images/canette.jpeg"></td>
      <td>Canettes</td>
      <td>Elevées en plein air</td>
      <td>Age: minimum 15 sem.</td>
-     <td>Alimentation: céréales + complément minéraux</td>
+     <td>Alimentation: céréales + compléments minéraux</td>
     </tr>
     <tr>
     	<td><img class="volaille" src="images/canard.jpeg"></td>
      	<td>Canards</td>
     	<td>Elevés en plein air</td>
      	<td>Age: minimum 15 sem.</td>
-     	<td>Alimentation: céréales + complément minéraux</td>
+     	<td>Alimentation: céréales + compléments minéraux</td>
     </tr>
     <tr>
 		<td><img class="volaille" src="images/coq.jpeg"></td>
      	<td>Coqs</td>
     	<td>Elevés en plein air</td>
      	<td>Age: minimum 15 sem.</td>
-     	<td>Alimentation: céréales + complément minéraux</td>
+     	<td>Alimentation: céréales + compléments minéraux</td>
 	</tr>
 	<tr>
 		<td><img class="volaille" src="images/lapin.jpeg"></td>
@@ -104,9 +97,9 @@
 </tr>
 </tbody>
 </table>
-<div class="row">
-	<div class="margebox">
 		<h3>Services:</h3>
   		<p>Que vous soyez professionnel ou particulier, nous vous proposons une prestation d'abattage et de découpe de volailles dans nos installations à Belhomert.</p>
 	</div>
+</div>
+</div>
 </div>
