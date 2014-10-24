@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lora);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 body{
 	background-image: image-url("fond9.png");
 }
@@ -94,13 +96,10 @@ h2{
 	margin: 0;
 	margin-bottom: 30px;
 	margin-left: 30px;
+	text-align: left;
 }
 h3{
 	margin:0px 0px 0px 30px;
-}
-@import url(http://fonts.googleapis.com/css?family=Lobster);
-h4{
-	
 }
 h5{
 	color:red;
@@ -118,10 +117,11 @@ h5{
 }
 td {
 	height:50px;
-	width: 160px;
-}
-td:first-child{
-	text-align: center;
+	width: 170px;
+	padding-bottom: 10px;
+	font-family:Lora;
+	font-size: 15px;
+	text-align: left;
 }
 .img {
 	height: 50px;
@@ -138,15 +138,11 @@ span {
 .rubrique{
 	margin: 50px 0px 20px 0px;
 }
-td {
-	padding-bottom: 10px;
-}
-
 .contact {
 	text-align: center;
 }
 p{
-	font-size: 17px;
+	font-family:Lora;
 }
 #serv{
 	margin:20px 0px 20px 30px;
@@ -154,4 +150,19 @@ p{
 
 .adresse{
 	width:400px;
+}
+#tableau1 tbody tr td:first-child{
+	text-align: center;
+}
+#tableau2 tbody tr td:first-child{
+	text-align: center;
+}
+#tableau3 tbody tr td:first-child{
+	text-align: center;
+}
+#tableau4 thead tr td:first-child{
+	text-align: left;
+}
+#tableau4{
+	margin-left: 20px;
 }
