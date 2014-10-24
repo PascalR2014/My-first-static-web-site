@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lora);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 body{
 	background-image: image-url("fond9.png");
 }
@@ -37,6 +39,7 @@ a:hover{
 }
 .btn{
 	text-align: center;
+	margin:2px 0px 2px 0px;
 	width:173px;
 }
 #box{
@@ -88,13 +91,26 @@ a:hover{
 @media screen and (max-width:720px){
 	#marge{padding:5px 5px 0px 5px;}
 }
+h2{
+	font-family: lobster;
+	margin: 0;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	text-align: left;
+}
 h3{
-	color:red;
+	margin:0px 0px 0px 30px;
 }
-h4{
+h5{
 	color:red;
+	text-align: left;
 }
-.volaille{
+.volaille {
+	height: 50px;
+	width: 50px;
+	margin-bottom: 5px;
+}
+.agneaux {
 	height: 50px;
 	width: 50px;
 }
@@ -159,4 +175,52 @@ h4{
 	text-align: center;
 	font-family: serif;
 	font-size: 120%;
+	width:400px;
+}
+td {
+	height:50px;
+	width: 170px;
+	padding-bottom: 10px;
+	font-family:Lora;
+	font-size: 15px;
+	text-align: left;
+}
+.img {
+	height: 50px;
+	width: 50px;
+}
+.cat{
+	margin: 20px 0px 20px 25px;
+	font-size: 20px;
+}
+span {
+	color:red;
+}
+
+.rubrique{
+	margin: 50px 0px 20px 0px;
+}
+.contact {
+	text-align: center;
+}
+p{
+	font-family:Lora;
+}
+#serv{
+	margin:20px 0px 20px 30px;
+}
+#tableau1 tbody tr td:first-child{
+	text-align: center;
+}
+#tableau2 tbody tr td:first-child{
+	text-align: center;
+}
+#tableau3 tbody tr td:first-child{
+	text-align: center;
+}
+#tableau4 thead tr td:first-child{
+	text-align: left;
+}
+#tableau4{
+	margin-left: 20px;
 }
