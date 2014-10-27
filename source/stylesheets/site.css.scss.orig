@@ -116,40 +116,40 @@ h5{
 }
 
 /*css page contact*/
-
-input,textarea {
-	width: 300px;
+#formulaire {
+	input,textarea {
+		width: 100%;
+	}
+	button {
+		text-align: center;
+	}
 }
-button {
-	text-align: center;
-}
-form{
-	width: auto;
-	margin: 0 auto;
-	font-size: 17px;
+#fondform{
+	background-color: yellow;
+	width:100%;
+	height: 450px;
 }
 #boxnom{
-	text-align: center;
 	margin-bottom: 5px;
 	border-radius: 5px;
 }
 #boxprenom{
-	text-align: center;
 	margin-bottom: 5px;
 	border-radius: 5px;
 }
 #boxmail{
-	text-align: center;
 	margin-bottom: 5px;
 	border-radius: 5px;
 }
 #boxphone{
-	text-align: center;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#boxtitre{
 	margin-bottom: 5px;
 	border-radius: 5px;
 }
 #boxmessage{
-	text-align: center;
 	margin-bottom: 5px;
 	border-radius: 5px;
 }
@@ -162,7 +162,6 @@ form{
 	text-align: center;
 	font-family: Lora;
 	font-size: 120%;
-	margin-bottom: 40px;
 }
 td {
 	height:50px;
@@ -189,7 +188,6 @@ span {
 }
 p{
 	font-family:Lora;
-	color:black;
 }
 #serv{
 	margin:20px 0px 20px 30px;
@@ -219,9 +217,12 @@ p{
 thead tr td {
 	text-align: center;
 }
+<<<<<<< HEAD
+#carte{text-align: center;
+}
+#cliquez{margin-left: 30px;}
+=======
 #carte{
 	text-align: center;
 }
-#cliquez { margin-left: 30px;
-
-}
+>>>>>>> fecbc13a109ec1e1d5e230d62b6345bf33c7c8bc
