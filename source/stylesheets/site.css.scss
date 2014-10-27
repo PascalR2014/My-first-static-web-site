@@ -116,69 +116,49 @@ h5{
 }
 
 /*css page contact*/
-.cadre{
-	width: auto;
-	background-color: #BFD0BB;
-}
-
-.boxcontact{
-	text-align: center;
-	input,textarea{
+#formulaire {
+	input,textarea {
 		width: 100%;
 	}
-
+	button {
+		text-align: center;
+	}
 }
-.boxnom{
-	text-align: center;
+#fondform{
+	background-color: yellow; 
+}
+#boxnom{
 	margin-bottom: 5px;
 	border-radius: 5px;
 }
-.boxprenom{
-	text-align: center;
-	margin-bottom: 5px;
-	border-radius: 5px;
-
-}
-.boxe-mail{
-	text-align: center;
-	margin-bottom: 5px;
-	border-radius: 5px;
-
-}
-.boxtelephone{
-	text-align: center;
-	margin-bottom: 5px;
-	border-radius: 5px;
-
-}
-.boxtitre{
-	text-align: center;
-	margin-bottom: 5px;
-	border-radius: 5px;
-
-}
-.boxmessage{
-	text-align: center;
-	margin-bottom: 5px;
-	border-radius: 5px;
-
-
-}
-.boxenvoyer{
-	text-align: center;
+#boxprenom{
 	margin-bottom: 5px;
 	border-radius: 5px;
 }
-.h5{
-	font-family: serif;
+#boxmail{
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#boxphone{
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#boxtitre{
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#boxmessage{
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#boxenvoyer{
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#adresse{
+	text-align: center;
+	font-family: Lora;
 	font-size: 120%;
-	text-align: left;
-}
-.adresse{
-	text-align: center;
-	font-family: serif;
-	font-size: 120%;
-	width:400px;
 }
 td {
 	height:50px;
@@ -202,9 +182,6 @@ span {
 
 .rubrique{
 	margin: 50px 0px 20px 0px;
-}
-.contact {
-	text-align: center;
 }
 p{
 	font-family:Lora;
