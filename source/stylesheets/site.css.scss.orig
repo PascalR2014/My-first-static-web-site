@@ -125,7 +125,9 @@ h5{
 	}
 }
 #fondform{
-	background-color: yellow; 
+	background-color: yellow;
+	width:100%;
+	height: 450px;
 }
 #boxnom{
 	margin-bottom: 5px;
@@ -215,6 +217,12 @@ p{
 thead tr td {
 	text-align: center;
 }
+<<<<<<< HEAD
+#carte{text-align: center;
+}
+#cliquez{margin-left: 30px;}
+=======
 #carte{
 	text-align: center;
 }
+>>>>>>> fecbc13a109ec1e1d5e230d62b6345bf33c7c8bc
