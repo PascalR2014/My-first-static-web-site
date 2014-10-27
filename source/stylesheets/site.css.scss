@@ -17,10 +17,10 @@ a:hover{
 #ban{
 	background-image: image-url('ban.jpg');
 	background-repeat: no-repeat;
-  	-webkit-background-size: cover; /* pour Chrome et Safari */
-  	-moz-background-size: cover; /* pour Firefox */
-  	-o-background-size: cover; /* pour Opera */
-  	background-size: cover; /* version standardisée */
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+	-moz-background-size: cover; /* pour Firefox */
+	-o-background-size: cover; /* pour Opera */
+	background-size: cover; /* version standardisée */
 	border:1px solid black;
 	width: auto;
 	height:170px;
@@ -75,8 +75,8 @@ a:hover{
 	.bouton:hover{box-shadow: none;}
 	.bouton p{
 		color: #fff;
-  		background-color: #5cb85c;
-  		border-color: #4cae4c;
+		background-color: #5cb85c;
+		border-color: #4cae4c;
 		line-height: normal;
 		height: 20px;
 		width: auto;
@@ -84,8 +84,8 @@ a:hover{
 	}
 	.bouton:hover{
 		color: #fff;
-  		background-color: #449d44;
-  		border-color: #398439;
+		background-color: #449d44;
+		border-color: #398439;
 	}
 }
 @media screen and (max-width:720px){
@@ -116,7 +116,10 @@ h5{
 }
 
 /*css page contact*/
-
+.cadre{
+	width: auto;
+	background-color: #BFD0BB;
+}
 
 .boxcontact{
 	text-align: center;
