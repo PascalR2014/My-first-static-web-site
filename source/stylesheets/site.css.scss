@@ -232,14 +232,6 @@ form{
 	font-size: 120%;
 	margin-bottom: 40px;
 }
-#imgpoule{
-	width: 150px;
-	height: 150px;
-	background-size: 150px 150px;
-	background-repeat: no-repeat;
-	border-radius: 5px;
-	background-image: image-url ("poule2.png")
-}
 td {
 	height:50px;
 	width: 150px;
@@ -297,10 +289,9 @@ thead tr td {
 #carte{
 	text-align: center;
 }
-<<<<<<< HEAD
 #cliquez{ 
 	margin-left: 30px;
-=======
+}
 #cliquez {
 	margin-left: 30px;
 }
@@ -397,5 +388,4 @@ thead tr td {
 	-moz-transition: width 6s linear;
 	-o-transition: width 6s linear;
 	transition: width 6s linear;
->>>>>>> 4ea357fa64d421ac2b4324109d3dfca06c47b2ef
 }
