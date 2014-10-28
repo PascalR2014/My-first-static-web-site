@@ -105,6 +105,17 @@ h5{
 	color:red;
 	text-align: left;
 }
+#citation{
+	width:auto;
+	margin:0 auto;
+}
+.cit1{
+	display: inline-block;
+	background-color: #FFF99E;
+	width:auto;
+	font-size: 17px;
+	border:2px solid black;
+}
 .volaille {
 	height: 50px;
 	width: 50px;
@@ -116,10 +127,12 @@ h5{
 }
 
 /*css page contact*/
+
 .boxcontact{
 	text-align: center;
 	input,textarea{
 		width: 100%;
+	}
 }
 input,textarea {
 	width: 300px;
@@ -131,6 +144,19 @@ form{
 	width: auto;
 	margin: 0 auto;
 	font-size: 17px;
+}
+#bande_horizontale{
+	padding: 0px;
+	margin-right: 80px;
+	margin-left: 80px;
+	margin-bottom: 25px; 
+	border: none;
+	width: auto;
+	height: 1px;
+	background-color: red;
+} 
+#marg{
+	margin-bottom: -15px; 
 }
 #boxnom{
 	text-align: center;
@@ -157,6 +183,14 @@ form{
 	margin-bottom: 5px;
 	border-radius: 5px;
 }
+#mentions{
+	text-decoration: blink;
+	text-align: center;
+	margin:auto;
+	p {
+		color: #7E8080;
+	}
+}
 #boxenvoyer{
 	text-align: center;
 	margin-bottom: 5px;
@@ -167,6 +201,14 @@ form{
 	font-family: Lora;
 	font-size: 120%;
 	margin-bottom: 40px;
+}
+#imgpoule{
+	width: 150px;
+	height: 150px;
+	background-size: 150px 150px;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	background-image: image-url ("poule2.png")
 }
 td {
 	height:50px;
@@ -208,7 +250,6 @@ p{
 #tableau3 tbody tr td:first-child{
 	text-align: center;
 }
-
 #tableau4{
 	margin-left: 40px;
 	text-align: left;
@@ -226,6 +267,6 @@ thead tr td {
 #carte{
 	text-align: center;
 }
-#cliquez { margin-left: 30px;
-
+#cliquez{ 
+	margin-left: 30px;
 }
