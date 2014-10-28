@@ -127,6 +127,31 @@ h5{
 	height: 50px;
 	width: 50px;
 }
+.vign{
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+}
+#block1{
+	background-image: image-url('volaille.jpg');
+}
+#block2{
+	background-image: image-url('volaillefestive.jpg');
+}
+#block3{
+	background-image: image-url('lapin.jpg');
+}
+#block4{
+	background-image: image-url('agneau.jpg');
+}
+.desc{
+	text-align: center;
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+}
 
 /*css page contact*/
 
@@ -203,10 +228,10 @@ p{
 	font-family:Lora;
 	color:black;
 }
-#serv{
-	margin:20px 0px 20px 30px;
+.serv{
+	margin:20px 30px 20px 30px;
+	text-align: justify;
 }
-
 #tableau1 tbody tr td:first-child{
 	text-align: center;
 }
