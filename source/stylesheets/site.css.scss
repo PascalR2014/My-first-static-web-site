@@ -1,5 +1,26 @@
 @import url(http://fonts.googleapis.com/css?family=Lora);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
+@media screen and (max-width:995px){
+	.bouton{margin:0px;display:inline;}
+	.bouton:hover{box-shadow: none;}
+	.bouton p{
+		color: #fff;
+		background-color: #5cb85c;
+		border-color: #4cae4c;
+		line-height: normal;
+		height: 20px;
+		width: auto;
+		border-radius: 10px;
+	}
+	.bouton:hover{
+		color: #fff;
+		background-color: #449d44;
+		border-color: #398439;
+	}
+}
+@media screen and (max-width:720px){
+	#marge{padding:5px 5px 0px 5px;}
+}
 body{
 	background-image: image-url("fond9.png");
 }
@@ -70,27 +91,6 @@ a:hover{
 	margin:0;
 	color:black;
 }
-@media screen and (max-width:995px){
-	.bouton{margin:0px;display:inline;}
-	.bouton:hover{box-shadow: none;}
-	.bouton p{
-		color: #fff;
-		background-color: #5cb85c;
-		border-color: #4cae4c;
-		line-height: normal;
-		height: 20px;
-		width: auto;
-		border-radius: 10px;
-	}
-	.bouton:hover{
-		color: #fff;
-		background-color: #449d44;
-		border-color: #398439;
-	}
-}
-@media screen and (max-width:720px){
-	#marge{padding:5px 5px 0px 5px;}
-}
 h2{
 	font-family: lobster;
 	margin: 0;
@@ -105,16 +105,18 @@ h5{
 	color:red;
 	text-align: left;
 }
+#article{
+	margin:0px 30px 30px 30px;
+	text-align: justify;
+}
 #citation{
-	width:auto;
-	margin:0 auto;
+	width: auto;
 }
 .cit1{
+	text-align: justify;
+	padding: 20px 20px 10px 20px;
 	display: inline-block;
-	background-color: #FFF99E;
-	width:auto;
-	font-size: 17px;
-	border:2px solid black;
+	margin:0px 20px 10px 20px;
 }
 .volaille {
 	height: 50px;
@@ -194,7 +196,6 @@ td {
 span {
 	color:red;
 }
-
 .rubrique{
 	margin: 50px 0px 20px 0px;
 }
@@ -215,7 +216,6 @@ p{
 #tableau3 tbody tr td:first-child{
 	text-align: center;
 }
-
 #tableau4{
 	margin-left: 40px;
 	text-align: left;
@@ -233,6 +233,6 @@ thead tr td {
 #carte{
 	text-align: center;
 }
-#cliquez { margin-left: 30px;
-
+#cliquez {
+	margin-left: 30px;
 }
