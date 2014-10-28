@@ -116,73 +116,61 @@ h5{
 }
 
 /*css page contact*/
-.cadre{
-	width: auto;
-	background-color: #D8E8D8;
-}
-
 .boxcontact{
 	text-align: center;
 	input,textarea{
 		width: 100%;
-	}
-
 }
-.boxnom{
+input,textarea {
+	width: 300px;
+}
+button {
+	text-align: center;
+}
+form{
+	width: auto;
+	margin: 0 auto;
+	font-size: 17px;
+}
+#boxnom{
 	text-align: center;
 	margin-bottom: 5px;
 	border-radius: 5px;
 }
-.boxprenom{
-	text-align: center;
-	margin-bottom: 5px;
-	border-radius: 5px;
-
-}
-.boxe-mail{
-	text-align: center;
-	margin-bottom: 5px;
-	border-radius: 5px;
-
-}
-.boxtelephone{
-	text-align: center;
-	margin-bottom: 5px;
-	border-radius: 5px;
-
-}
-.boxtitre{
-	text-align: center;
-	margin-bottom: 5px;
-	border-radius: 5px;
-
-}
-.boxmessage{
-	text-align: center;
-	margin-bottom: 5px;
-	border-radius: 5px;
-
-
-}
-.boxenvoyer{
+#boxprenom{
 	text-align: center;
 	margin-bottom: 5px;
 	border-radius: 5px;
 }
-.h5{
-	font-family: serif;
+#boxmail{
+	text-align: center;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#boxphone{
+	text-align: center;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#boxmessage{
+	text-align: center;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#boxenvoyer{
+	text-align: center;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#adresse{
+	text-align: center;
+	font-family: Lora;
 	font-size: 120%;
-	text-align: left;
-}
-.adresse{
-	text-align: center;
-	font-family: serif;
-	font-size: 120%;
-	width:400px;
+	margin-bottom: 40px;
 }
 td {
 	height:50px;
-	width: 170px;
+	width: 150px;
 	padding-bottom: 10px;
 	font-family:Lora;
 	font-size: 15px;
@@ -203,15 +191,14 @@ span {
 .rubrique{
 	margin: 50px 0px 20px 0px;
 }
-.contact {
-	text-align: center;
-}
 p{
 	font-family:Lora;
+	color:black;
 }
 #serv{
 	margin:20px 0px 20px 30px;
 }
+
 #tableau1 tbody tr td:first-child{
 	text-align: center;
 }
@@ -221,9 +208,24 @@ p{
 #tableau3 tbody tr td:first-child{
 	text-align: center;
 }
-#tableau4 thead tr td:first-child{
+
+#tableau4{
+	margin-left: 40px;
 	text-align: left;
 }
-#tableau4{
-	margin-left: 20px;
+#tableau4 tbody tr td{
+	height: 100px;
+	border: solid black 1px;
+}
+.adresse{
+	width: 400px;
+}
+thead tr td {
+	text-align: center;
+}
+#carte{
+	text-align: center;
+}
+#cliquez { margin-left: 30px;
+
 }

@@ -1,0 +1,228 @@
+@import url(http://fonts.googleapis.com/css?family=Lora);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+body{
+	background-image: image-url("fond9.png");
+}
+#marge{
+	padding:20px 40px 0px 40px;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+#ban{
+	background-image: image-url('ban.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+	-moz-background-size: cover; /* pour Firefox */
+	-o-background-size: cover; /* pour Opera */
+	background-size: cover; /* version standardisée */
+	border:1px solid black;
+	width: auto;
+	height:170px;
+	border-radius: 5px;
+	text-align: center;
+}
+#ban h1{
+	text-align: left;
+	margin:0;
+	color: black;
+}
+#nav{
+	padding: 0;
+	text-align: center;
+	margin:20px 0px 20px 0px;
+}
+.btn{
+	text-align: center;
+	margin:2px 0px 2px 0px;
+	width:173px;
+}
+#box{
+	border:1px solid black;
+	border-radius: 5px;
+	background-color: #FEFEFE;
+}
+.col-md-12{
+	margin: 0;
+	padding: 0;
+}
+.col-md-8{
+	padding: 0;
+	margin-left: 300px;
+}
+.col-md-6{
+	padding:0;
+}
+#mention{
+	margin:20px 0px 0px 0px;
+	text-align: center;
+	height: auto;
+	width: auto;
+	background-color: rgba(#fff, 1);
+	border-radius: 5px;
+}
+#mention p{
+	margin:0;
+	color:black;
+}
+@media screen and (max-width:995px){
+	.bouton{margin:0px;display:inline;}
+	.bouton:hover{box-shadow: none;}
+	.bouton p{
+		color: #fff;
+		background-color: #5cb85c;
+		border-color: #4cae4c;
+		line-height: normal;
+		height: 20px;
+		width: auto;
+		border-radius: 10px;
+	}
+	.bouton:hover{
+		color: #fff;
+		background-color: #449d44;
+		border-color: #398439;
+	}
+}
+@media screen and (max-width:720px){
+	#marge{padding:5px 5px 0px 5px;}
+}
+h2{
+	font-family: lobster;
+	margin: 0;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	text-align: left;
+}
+h3{
+	margin:0px 0px 0px 30px;
+}
+h5{
+	color:red;
+	text-align: left;
+}
+.volaille {
+	height: 50px;
+	width: 50px;
+	margin-bottom: 5px;
+}
+.agneaux {
+	height: 50px;
+	width: 50px;
+}
+
+/*css page contact*/
+#formulaire {
+	input,textarea {
+		width: 100%;
+	}
+	button {
+		text-align: center;
+	}
+}
+#fondform{
+	background-color: yellow;
+	width:100%;
+	height: 450px;
+}
+#boxnom{
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#boxprenom{
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#boxmail{
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#boxphone{
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#boxtitre{
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#boxmessage{
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#boxenvoyer{
+	text-align: center;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#adresse{
+	text-align: center;
+	font-family: Lora;
+	font-size: 120%;
+}
+td {
+	height:50px;
+	width: 150px;
+	padding-bottom: 10px;
+	font-family:Lora;
+	font-size: 15px;
+	text-align: left;
+}
+.img {
+	height: 50px;
+	width: 50px;
+}
+.cat{
+	margin: 20px 0px 20px 25px;
+	font-size: 20px;
+}
+span {
+	color:red;
+}
+
+.rubrique{
+	margin: 50px 0px 20px 0px;
+}
+p{
+	font-family:Lora;
+}
+#serv{
+	margin:20px 0px 20px 30px;
+}
+
+#tableau1 tbody tr td:first-child{
+	text-align: center;
+}
+#tableau2 tbody tr td:first-child{
+	text-align: center;
+}
+#tableau3 tbody tr td:first-child{
+	text-align: center;
+}
+
+#tableau4{
+	margin-left: 40px;
+	text-align: left;
+}
+#tableau4 tbody tr td{
+	height: 100px;
+	border: solid black 1px;
+}
+.adresse{
+	width: 400px;
+}
+thead tr td {
+	text-align: center;
+}
+<<<<<<< HEAD
+#carte{text-align: center;
+}
+#cliquez{margin-left: 30px;}
+=======
+#carte{
+	text-align: center;
+}
+>>>>>>> fecbc13a109ec1e1d5e230d62b6345bf33c7c8bc
