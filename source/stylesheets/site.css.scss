@@ -311,8 +311,9 @@ thead tr td {
 #carte{
 	text-align: center;
 }
-#cliquez{ 
+.marches{ 
 	margin-left: 30px;
+	font-family: Lora;
 }
 #cliquez {
 	margin-left: 30px; margin-right: 30px;
@@ -397,4 +398,8 @@ thead tr td {
 	-moz-transition: width 6s linear;
 	-o-transition: width 6s linear;
 	transition: width 6s linear;
+}
+li {
+	font-family: Lora;
+	font-size: 15px;
 }
