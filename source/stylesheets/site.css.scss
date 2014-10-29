@@ -21,6 +21,13 @@
 @media screen and (max-width:720px){
 	#marge{padding:5px 5px 0px 5px;}
 }
+@media (min-width: 970px) {
+    /* Lower the font size of the carousel caption header so that our caption
+    doesn't take up the full image/slide on smaller screens */
+	.transition-timer-carousel .carousel-caption .carousel-caption-header {
+		font-size: 36px;
+	}
+}
 body{
 	background-image: image-url("fond9.png");
 }
@@ -269,6 +276,12 @@ thead tr td {
 	color:white;
 	font-family: Lora;
 }
+span .glyphicon .glyphicon-chevron-left{
+	border-color: white;
+}
+span .glyphicon .glyphicon-chevron-right{
+	border-color: white;
+}
 .transition-timer-carousel .carousel-caption {
     background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 4%, rgba(0,0,0,0.5) 32%, rgba(0,0,0,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(4%,rgba(0,0,0,0.1)), color-stop(32%,rgba(0,0,0,0.5)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
@@ -289,14 +302,6 @@ thead tr td {
 .transition-timer-carousel .carousel-caption .carousel-caption-header {
 	margin-top: 10px;
 	font-size: 24px;
-}
-
-@media (min-width: 970px) {
-    /* Lower the font size of the carousel caption header so that our caption
-    doesn't take up the full image/slide on smaller screens */
-	.transition-timer-carousel .carousel-caption .carousel-caption-header {
-		font-size: 36px;
-	}
 }
 .transition-timer-carousel .carousel-indicators {
 	bottom: 0px;
@@ -325,14 +330,6 @@ thead tr td {
 .transition-timer-carousel .carousel-caption .carousel-caption-header {
 	margin-top: 10px;
 	font-size: 24px;
-}
-
-@media (min-width: 970px) {
-    /* Lower the font size of the carousel caption header so that our caption
-    doesn't take up the full image/slide on smaller screens */
-	.transition-timer-carousel .carousel-caption .carousel-caption-header {
-		font-size: 36px;
-	}
 }
 .transition-timer-carousel .carousel-indicators {
 	bottom: 0px;
