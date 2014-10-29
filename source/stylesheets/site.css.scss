@@ -31,9 +31,6 @@
 body{
 	background-image: image-url("fond9.png");
 }
-#marge{
-	padding:20px 40px 0px 40px;
-}
 a{
 	color:white;
 	text-decoration: none;
@@ -41,6 +38,67 @@ a{
 a:hover{
 	color: white;
 	text-decoration: none;
+}
+p{
+	font-family:Lora;
+	color:black;
+	font-size: 15px;
+	margin-bottom: 0px;
+}
+h2{
+	font-family: lobster;
+	margin: 20px 0px 30px 30px;
+	text-align: left;
+	color: black;
+}
+h3{
+	margin:0px 0px 0px 30px;
+	font-family:Lora;
+	color:black;
+}
+h4{
+	margin: 0;
+	color: black;
+	font-family:Lora;
+}
+h5{
+	font-family:Lora;
+	color:red;
+	text-align: left;
+}
+input,textarea {
+	width: 300px;
+}
+button {
+	text-align: center;
+}
+form{
+	width: auto;
+	margin: 0 auto;
+	font-size: 17px;
+}
+td {
+	height:50px;
+	width: 150px;
+	padding-bottom: 10px;
+	font-family:Lora;
+	font-size: 15px;
+	text-align: left;
+}
+span {
+	color:red;
+}
+span .glyphicon .glyphicon-chevron-left{
+	border-color: white;
+}
+span .glyphicon .glyphicon-chevron-right{
+	border-color: white;
+}
+thead tr td {
+	text-align: center;
+}
+#marge{
+	padding:20px 40px 0px 40px;
 }
 #ban{
 	background-image: image-url('ban.jpg');
@@ -98,29 +156,6 @@ a:hover{
 	margin:0;
 	color:black;
 }
-h2{
-	font-family: lobster;
-	margin: 0;
-	margin-bottom: 30px;
-	margin-left: 30px;
-	text-align: left;
-	color: black;
-}
-h3{
-	margin:0px 0px 0px 30px;
-	font-family:Lora;
-	color:black;
-}
-h4{
-	margin: 0;
-	color: black;
-	font-family:Lora;
-}
-h5{
-	font-family:Lora;
-	color:red;
-	text-align: left;
-}
 #avis{
 	font-family: Lora;
 	margin-left:30px;
@@ -139,14 +174,14 @@ h5{
 	margin:0px 20px 10px 20px;
 }
 .vign{
-	width: 200px;
-	height: 200px;
-	background-size: 200px 200px;
+	width: 150px;
+	height: 150px;
+	background-size: 150px 150px;
 	background-repeat: no-repeat;
 	border-radius: 5px;
 }
 .titrevign{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	margin-left: 25px;
 }
 #block1{
@@ -164,7 +199,12 @@ h5{
 .desc{
 	margin-bottom: 60px;
 	width: 200px;
-	height: 200px;
+	height: 150px;
+}
+.desc2{
+	margin-bottom: 0px;
+	width:200px;
+	height:150px;
 }
 
 /*css page contact*/
@@ -174,17 +214,6 @@ h5{
 	input,textarea{
 		width: 100%;
 	}
-}
-input,textarea {
-	width: 300px;
-}
-button {
-	text-align: center;
-}
-form{
-	width: auto;
-	margin: 0 auto;
-	font-size: 17px;
 }
 #bande_horizontale{
 	padding: 0px;
@@ -234,7 +263,7 @@ form{
 }
 #boxenvoyer{
 	text-align: center;
-	margin-bottom: 5px;
+	margin: 5px 0px 5px 0px;
 	border-radius: 5px;
 }
 #adresse{
@@ -242,14 +271,6 @@ form{
 	font-family: Lora;
 	font-size: 120%;
 	margin-bottom: 40px;
-}
-td {
-	height:50px;
-	width: 150px;
-	padding-bottom: 10px;
-	font-family:Lora;
-	font-size: 15px;
-	text-align: left;
 }
 .img {
 	height: 50px;
@@ -259,16 +280,8 @@ td {
 	margin: 20px 0px 20px 25px;
 	font-size: 20px;
 }
-span {
-	color:red;
-}
 .rubrique{
 	margin: 50px 0px 20px 0px;
-}
-p{
-	font-family:Lora;
-	color:black;
-	font-size: 15px;
 }
 .serv{
 	margin:20px 30px 20px 30px;
@@ -294,9 +307,7 @@ p{
 .adresse{
 	width: 400px;
 }
-thead tr td {
-	text-align: center;
-}
+
 #carte{
 	text-align: center;
 }
@@ -309,12 +320,6 @@ thead tr td {
 .descarousel{
 	color:white;
 	font-family: Lora;
-}
-span .glyphicon .glyphicon-chevron-left{
-	border-color: white;
-}
-span .glyphicon .glyphicon-chevron-right{
-	border-color: white;
 }
 #carousel{
 	margin-bottom: 20px;
