@@ -61,16 +61,24 @@
                         <div class="carousel-caption">
                             <h1 class="carousel-caption-header"></h1>
                             <p class="carousel-caption-text hidden-sm hidden-xs">
+<<<<<<< HEAD
                                 <h4 class="descarousel">autre vue du laboratoire.</h4>
+=======
+                                <h4 class="descarousel">Chariots de stockage</h4>
+>>>>>>> c61e699b60cc0a24a49257651c5353bf2819b552
                             </p>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="item">
                         <img src="./images/imgab06.jpg" />
                         <div class="carousel-caption">
                             <h1 class="carousel-caption-header"></h1>
                             <p class="carousel-caption-text hidden-sm hidden-xs">
+<<<<<<< HEAD
                                 <h4 class="descarousel">Les chambres froides</h4>
+=======
+                                <h4 class="descarousel">Chambre froide</h4>
+>>>>>>> c61e699b60cc0a24a49257651c5353bf2819b552
                             </p>
                         </div>
                     </div>
@@ -87,7 +95,11 @@
                         <div class="carousel-caption">
                             <h1 class="carousel-caption-header"></h1>
                             <p class="carousel-caption-text hidden-sm hidden-xs">
+<<<<<<< HEAD
                                 <h4 class="descarousel">Le poulet préparé.</h4>
+=======
+                                <h4 class="descarousel">Produit fini</h4>
+>>>>>>> c61e699b60cc0a24a49257651c5353bf2819b552
                             </p>
                         </div><!--carousel-caption-->
                     </div><!--item-->
