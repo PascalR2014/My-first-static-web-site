@@ -85,6 +85,10 @@ td {
 	font-size: 15px;
 	text-align: left;
 }
+li {
+	font-family: Lora;
+	font-size: 15px;
+}
 span {
 	color:red;
 }
@@ -205,6 +209,9 @@ thead tr td {
 	margin-bottom: 0px;
 	width:200px;
 	height:150px;
+}
+#inst{
+	margin:0px 20px 20px 20px;
 }
 
 /*css page contact*/
@@ -398,8 +405,4 @@ thead tr td {
 	-moz-transition: width 6s linear;
 	-o-transition: width 6s linear;
 	transition: width 6s linear;
-}
-li {
-	font-family: Lora;
-	font-size: 15px;
 }
