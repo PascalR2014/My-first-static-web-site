@@ -12,11 +12,6 @@
 		width: auto;
 		border-radius: 10px;
 	}
-	.bouton:hover{
-		color: #fff;
-		background-color: #449d44;
-		border-color: #398439;
-	}
 }
 @media screen and (max-width:720px){
 	#marge{padding:5px 5px 0px 5px;}
@@ -27,6 +22,30 @@
 	.transition-timer-carousel .carousel-caption .carousel-caption-header {
 		font-size: 36px;
 	}
+}
+@media screen and (max-width: 400px) {
+    #ban {
+        width: auto;
+        height: 50px;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 800px){
+    #ban {
+        width: auto;
+        height: 100px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1749px){
+    #ban {
+        width: auto;
+        height: 300px;
+    }
+}
+@media screen and (min-width: 1750px) {
+    #ban {
+        width: auto;
+        height: 350px;
+    }
 }
 body{
 	background-image: image-url("fond9.png");
@@ -40,29 +59,29 @@ a:hover{
 	text-decoration: none;
 }
 p{
-	font-family:Lora;
+	font-family:Lora, Arial, Times;
 	color:black;
 	font-size: 15px;
 	margin-bottom: 0px;
 }
 h2{
-	font-family: lobster;
+	font-family: lobster, Arial, Times;
 	margin: 20px 0px 20px 30px;
 	text-align: left;
 	color: black;
 }
 h3{
 	margin:0px 0px 0px 30px;
-	font-family:Lora;
+	font-family:Lora, Arial, Times;
 	color:black;
 }
 h4{
 	margin: 0;
 	color: black;
-	font-family:Lora;
+	font-family:Lora, Arial, Times;
 }
 h5{
-	font-family:Lora;
+	font-family:Lora, Arial, Times;
 	color:red;
 	text-align: left;
 }
@@ -81,12 +100,12 @@ td {
 	height:50px;
 	width: 150px;
 	padding-bottom: 10px;
-	font-family:Lora;
+	font-family:Lora, Arial, Times;
 	font-size: 15px;
 	text-align: left;
 }
 li {
-	font-family: Lora;
+	font-family: Lora, Arial, Times;
 	font-size: 15px;
 }
 span {
@@ -110,22 +129,13 @@ iframe{
 #ban{
 	background-image: image-url('ban.jpg');
 	background-repeat: no-repeat;
-	-webkit-background-size: cover; /* pour Chrome et Safari */
-	-moz-background-size: cover; /* pour Firefox */
-	-o-background-size: cover; /* pour Opera */
-	background-size: cover; /* version standardisée */
-	border:1px solid black;
+	background-size:100%;
 	width: auto;
-	height:170px;
+	height:200px;
 	border-radius: 5px;
 	text-align: center;
 	margin: 0;
 	padding: 0;
-}
-#ban h1{
-	text-align: left;
-	margin:0;
-	color: black;
 }
 #nav{
 	padding: 0;
@@ -165,9 +175,30 @@ iframe{
 	margin:0;
 	color:black;
 }
-#avis{
-	font-family: Lora;
-	margin-left:30px;
+#jmlorin{
+	background-image: image-url('jmlorin.jpg');
+	background-size:contain;
+    -moz-background-size:contain;
+    -webkit-background-size:contain;
+	background-repeat: no-repeat;
+	width: auto;
+	height:400px;
+	margin:0px 0px 20px 0px;
+}
+#index{
+	width: auto;
+	margin: 0px 20px 0px 20px;
+	text-align: justify;
+}
+.contact{
+	color:blue;
+	text-decoration: underline;
+}
+.contact:hover{
+	color: blue;
+}
+.col-md-8{
+	margin: 0;
 }
 #article{
 	margin:0px 30px 30px 30px;
@@ -266,7 +297,6 @@ iframe{
 	border-radius: 5px;
 }
 #mentions{
-	text-decoration: blink;
 	text-align: center;
 	margin:auto;
 	p {
@@ -280,7 +310,7 @@ iframe{
 }
 #adresse{
 	text-align: center;
-	font-family: Lora;
+	font-family: Lora, Arial, Times;
 	font-size: 120%;
 	margin-bottom: 40px;
 }
@@ -325,14 +355,14 @@ iframe{
 }
 .marches{ 
 	margin-left: 30px;
-	font-family: Lora;
+	font-family: Lora, Arial, Times;
 }
 #cliquez {
 	margin-left: 30px; margin-right: 30px;
 }
 .descarousel{
 	color:white;
-	font-family: Lora;
+	font-family: Lora, Arial, Times;
 }
 #carousel{
 	margin-bottom: 20px;
@@ -410,11 +440,4 @@ iframe{
 	-moz-transition: width 6s linear;
 	-o-transition: width 6s linear;
 	transition: width 6s linear;
-}
-#jmlorin{
-	width: 280px;
-	height:auto;
-}
-.col-md-8{
-	margin: 0px 0px 0px 20px;
 }
