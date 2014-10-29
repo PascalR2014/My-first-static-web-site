@@ -1,5 +1,5 @@
 <div class="container-fluid">
-	<div class="row">
+	<div class="row" id="marg">
 		<h2>
 			<span>C</span>ontact
 		</h2>
@@ -10,12 +10,14 @@
 			</div><!--adresse-->
 		</div><!--col-md-6 col-md-offset-3-->
 	</div><!--row-->
+		<form class ="col-md-6-md-offset-3">
+			<div id="bande_horizontale"></div> 
 	<div class="row">
 		<form class ="col-md-6-md-offset-3" method="post" action="http://staging-simplonform.herokuapp.com/message/f041fb94-844f-4372-a4c0-f2cbd254a1fa">
 			<div id="boxnom">
 				<p>Nom:</p>
 				<input type="text" oval="Nom*" name="Nom" placeholder="Nom*" required="required"/>
-			</div>
+		</div>
 			<div id="boxprenom">
 				<p>Prénom:</p>
 				<input type="text" oval="Prénom*" name="Prenom" placeholder="Prénom*" required="required"/>
@@ -31,6 +33,9 @@
 			<div id="boxmessage">
 				<p>Message:</p>
 				<textarea oval="Message*" name="Message" placeholder="Message"></textarea>
+			</div>
+			<div id="mentions">
+				<p>Les champs avec une * sont obligatoire</p>
 			</div>
 			<div id="boxenvoyer">
 				<button title="Envoyer" value="Envoyer"><span class="ico btn send">ENVOYER</span></button>
