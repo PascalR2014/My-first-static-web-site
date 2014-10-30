@@ -1,33 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lora);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
-@media screen and (max-width:995px){
-	.bouton{margin:0px;display:inline;}
-	.bouton:hover{box-shadow: none;}
-	.bouton p{
-		color: #fff;
-		background-color: #5cb85c;
-		border-color: #4cae4c;
-		line-height: normal;
-		height: 20px;
-		width: auto;
-		border-radius: 10px;
-	}
-	.bouton:hover{
-		color: #fff;
-		background-color: #449d44;
-		border-color: #398439;
-	}
-}
-@media screen and (max-width:720px){
-	#marge{padding:5px 5px 0px 5px;}
-}
-@media (min-width: 970px) {
-    /* Lower the font size of the carousel caption header so that our caption
-    doesn't take up the full image/slide on smaller screens */
-	.transition-timer-carousel .carousel-caption .carousel-caption-header {
-		font-size: 36px;
-	}
-}
 body{
 	background-image: image-url("fond9.png");
 }
@@ -40,29 +11,29 @@ a:hover{
 	text-decoration: none;
 }
 p{
-	font-family:Lora;
+	font-family: Arial, Times;
 	color:black;
 	font-size: 15px;
 	margin-bottom: 0px;
 }
 h2{
-	font-family: lobster;
+	font-family: lobster, Arial, Times;
 	margin: 20px 0px 20px 30px;
 	text-align: left;
 	color: black;
 }
 h3{
 	margin:0px 0px 0px 30px;
-	font-family:Lora;
+	font-family: Arial, Times;
 	color:black;
 }
 h4{
 	margin: 0;
 	color: black;
-	font-family:Lora;
+	font-family: Arial, Times;
 }
 h5{
-	font-family:Lora;
+	font-family: Arial, Times;
 	color:red;
 	text-align: left;
 }
@@ -72,21 +43,16 @@ input,textarea {
 button {
 	text-align: center;
 }
-form{
-	width: auto;
-	margin: 0 auto;
-	font-size: 17px;
-}
 td {
 	height:50px;
 	width: 150px;
 	padding-bottom: 10px;
-	font-family:Lora;
+	font-family: Arial, Times;
 	font-size: 15px;
 	text-align: left;
 }
 li {
-	font-family: Lora;
+	font-family: Arial, Times;
 	font-size: 15px;
 }
 span {
@@ -101,29 +67,19 @@ span .glyphicon .glyphicon-chevron-right{
 thead tr td {
 	text-align: center;
 }
-iframe{
+#carte{
+	width: 100%;
 	margin:20px 0px 20px 0px;
+}
+#formulaire{
+	width: 100%;
 }
 #marge{
 	padding:20px 40px 0px 40px;
 }
 #ban{
-	background-image: image-url('ban.jpg');
-	background-repeat: no-repeat;
-	-webkit-background-size: cover; /* pour Chrome et Safari */
-	-moz-background-size: cover; /* pour Firefox */
-	-o-background-size: cover; /* pour Opera */
-	background-size: cover; /* version standardisée */
-	border:1px solid black;
-	width: auto;
-	height:170px;
+	width: 100%;
 	border-radius: 5px;
-	text-align: center;
-}
-#ban h1{
-	text-align: left;
-	margin:0;
-	color: black;
 }
 #nav{
 	padding: 0;
@@ -163,9 +119,26 @@ iframe{
 	margin:0;
 	color:black;
 }
-#avis{
-	font-family: Lora;
-	margin-left:30px;
+#jmlorin{
+	width: 100%;
+	margin:0px 0px 20px 0px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+#index{
+	width: auto;
+	margin: 0px 20px 0px 20px;
+	text-align: left;
+}
+.cont{
+	color:blue;
+	text-decoration: underline;
+	}
+.cont:hover{
+	color: blue;
+}
+.col-md-8{
+	margin: 0;
 }
 #article{
 	margin:0px 30px 30px 30px;
@@ -264,7 +237,6 @@ iframe{
 	border-radius: 5px;
 }
 #mentions{
-	text-decoration: blink;
 	text-align: center;
 	margin:auto;
 	p {
@@ -278,7 +250,7 @@ iframe{
 }
 #adresse{
 	text-align: center;
-	font-family: Lora;
+	font-family: Lora, Arial, Times;
 	font-size: 120%;
 	margin-bottom: 40px;
 }
@@ -317,20 +289,16 @@ iframe{
 .adresse{
 	width: 400px;
 }
-
-#carte{
-	text-align: center;
-}
 .marches{ 
 	margin-left: 30px;
-	font-family: Lora;
+	font-family: Arial, Times;
 }
 #cliquez {
 	margin-left: 30px; margin-right: 30px;
 }
 .descarousel{
 	color:white;
-	font-family: Lora;
+	font-family: Arial, Times;
 }
 #carousel{
 	margin-bottom: 20px;
@@ -408,11 +376,4 @@ iframe{
 	-moz-transition: width 6s linear;
 	-o-transition: width 6s linear;
 	transition: width 6s linear;
-}
-#jmlorin{
-	width: 280px;
-	height:auto;
-}
-.col-md-8{
-	margin: 0px 0px 0px 20px;
 }
