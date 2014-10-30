@@ -1,51 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
-@media screen and (max-width:995px){
-	.bouton{margin:0px;display:inline;}
-	.bouton:hover{box-shadow: none;}
-	.bouton p{
-		color: #fff;
-		background-color: #5cb85c;
-		border-color: #4cae4c;
-		line-height: normal;
-		height: 20px;
-		width: auto;
-		border-radius: 10px;
-	}
-}
-@media screen and (max-width:720px){
-	#marge{padding:5px 5px 0px 5px;}
-}
-@media (min-width: 970px) {
-    /* Lower the font size of the carousel caption header so that our caption
-    doesn't take up the full image/slide on smaller screens */
-	.transition-timer-carousel .carousel-caption .carousel-caption-header {
-		font-size: 36px;
-	}
-}
-@media screen and (max-width: 400px) {
-    #ban {
-        width: auto;
-        height: 50px;
-    }
-}
-@media screen and (min-width: 401px) and (max-width: 800px){
-    #ban {
-        width: auto;
-        height: 100px;
-    }
-}
-@media screen and (min-width: 1200px) and (max-width: 1749px){
-    #ban {
-        width: auto;
-        height: 300px;
-    }
-}
-@media screen and (min-width: 1750px) {
-    #ban {
-        width: auto;
-        height: 350px;
-    }
-}
 body{
 	background-image: image-url("fond9.png");
 }
@@ -90,11 +43,6 @@ input,textarea {
 button {
 	text-align: center;
 }
-form{
-	width: auto;
-	margin: 0 auto;
-	font-size: 17px;
-}
 td {
 	height:50px;
 	width: 150px;
@@ -107,7 +55,7 @@ li {
 	font-family: Arial, Times;
 	font-size: 15px;
 }
-span {
+.firstletter {
 	color:red;
 }
 span .glyphicon .glyphicon-chevron-left{
@@ -119,22 +67,19 @@ span .glyphicon .glyphicon-chevron-right{
 thead tr td {
 	text-align: center;
 }
-iframe{
+#carte{
+	width: 100%;
 	margin:20px 0px 20px 0px;
+}
+#formulaire{
+	width: 100%;
 }
 #marge{
 	padding:20px 40px 0px 40px;
 }
 #ban{
-	background-image: image-url('ban.jpg');
-	background-repeat: no-repeat;
-	background-size:100%;
-	width: auto;
-	height:200px;
+	width: 100%;
 	border-radius: 5px;
-	text-align: center;
-	margin: 0;
-	padding: 0;
 }
 #nav{
 	padding: 0;
@@ -175,19 +120,15 @@ iframe{
 	color:black;
 }
 #jmlorin{
-	background-image: image-url('jmlorin.jpg');
-	background-size:contain;
-    -moz-background-size:contain;
-    -webkit-background-size:contain;
-	background-repeat: no-repeat;
-	width: auto;
-	height:400px;
+	width: 100%;
 	margin:0px 0px 20px 0px;
+	border-radius: 5px;
+	border: 1px solid black;
 }
 #index{
 	width: auto;
 	margin: 0px 20px 0px 20px;
-	text-align: justify;
+	text-align: left;
 }
 .cont{
 	color:blue;
@@ -347,11 +288,6 @@ iframe{
 }
 .adresse{
 	width: 400px;
-}
-
-#carte{
-	text-align: center;
-
 }
 .marches{ 
 	margin-left: 30px;

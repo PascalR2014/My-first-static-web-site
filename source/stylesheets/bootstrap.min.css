@@ -53,10 +53,10 @@
     /* We make the transition time shorter to avoid the slide transitioning
     before the timer bar is "full" - change the 4.25s here to fit your
     carousel's transition time */
-    -webkit-transition: width 6s linear;
-  -moz-transition: width 6s linear;
-  -o-transition: width 6s linear;
-  transition: width 6s linear;
+  -webkit-transition: width 4s linear;
+  -moz-transition: width 4s linear;
+  -o-transition: width 4s linear;
+  transition: width 4s linear;
 }.transition-timer-carousel .carousel-caption {
     background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 4%, rgba(0,0,0,0.5) 32%, rgba(0,0,0,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(4%,rgba(0,0,0,0.1)), color-stop(32%,rgba(0,0,0,0.5)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
