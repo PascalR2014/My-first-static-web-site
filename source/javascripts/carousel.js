@@ -1,4 +1,4 @@
-$(document).ready(function() {    
+$(document).ready(function() {
     //Events that reset and restart the timer animation when the slides change
     $("#transition-timer-carousel").on("slide.bs.carousel", function(event) {
         //The animate class gets removed so that it jumps straight back to 0%
@@ -10,7 +10,7 @@ $(document).ready(function() {
         $(".transition-timer-carousel-progress-bar", this)
             .addClass("animate").css("width", "100%");
     });
-    
+
     //Kick off the initial slide animation when the document is ready
     $(".transition-timer-carousel-progress-bar", "#transition-timer-carousel")
         .css("width", "100%");
