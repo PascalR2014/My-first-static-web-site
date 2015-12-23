@@ -4,9 +4,9 @@
 
 http://volailles-des-sablons.innoveduc.fr/index.html
 
-dream team : setzu, PascalR2014, AmelieMorin, Kajah06
+5 contributors : PascalR2014 [Pascal Richet], setzu, AmelieMorin, Kajah06, Em-Ak[Tutor].
 
-Made with HTML,CSS,Ruby and Javascript. langages
+Forge with [ HTML5, CSS3, Javascript, Ruby.
 
 thanks for watching !
 
