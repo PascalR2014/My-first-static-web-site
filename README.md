@@ -1,12 +1,12 @@
 
 
-#Site web pour Les Volailles des Sablons
+# FIRST STATIC WEB SITE - SITE WEB STATIQUE ** LES VOALILLES DES SABLONS **
+
+Made with : [MIDDLEMAN FRAMEWORK}. Langages : [ HTML5, CSS3, Javascript, Ruby ]
+
+5 contributors : Me-PascalR2014 [Pascal Richet], setzu, AmelieMorin, Kajah06, Em-Ak[Professor in WCS.].
 
 http://volailles-des-sablons.innoveduc.fr/index.html
-
-5 contributors : PascalR2014 [Pascal Richet], setzu, AmelieMorin, Kajah06, Em-Ak[Tutor].
-
-Forge with [ HTML5, CSS3, Javascript, Ruby.
 
 thanks for watching !
 
